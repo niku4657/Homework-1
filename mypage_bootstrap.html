@@ -3,41 +3,79 @@
     <html>
       <head>
         <title>About Me</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       </head>
       <body>
-        <h1>Kunapuli, Niharika</h1>
-        <p>I am a Sophomore at CU Boulder. I major in Computer Science and minor in Hindi. I love dogs.</p>
-        <h2>My Professional Profile</h2>
-        <a href="niku4657.github.io">Niharika's Github</a>
+        <div class = "container">
+          <h1>Kunapuli, Niharika -
+            <small class="text-muted">Software Development Tools and Methods</small>
+          </h1>
+          <br>
+          <div class = "card">
+            <div class = "card-body bg-light">
+              <p class = "card-text">I am a Sophomore at CU Boulder. I major in Computer Science and minor in Hindi. I love dogs.</p>
+            </div>
+        </div>
         <br>
-        <!-- Replace image with one of my own. -->
-        <img src="smiley.gif" alt="Niharika Kunapuli" height="600" width="600">
-        <h3>My Favorite Projects</h3>
-        <table border = "1px solid black" text-align="left">
-          <tr scope = "row">
-            <th scope = "col">Name of the Project</th>
-            <th scope = "col">Technologies Used</th>
-          </tr>
-          <tr scope = "row">
-            <td scope = "col">Text-Based Game of Clue</td>
-            <td scope = "col">C++</td>
-          </tr>
-          <tr scope = "row">
-            <td scope = "col">Ping Pong Game</td>
-            <td scope = "col">Java</td>
-          </tr>
-        </table>
-        <h3>Countries Travelled</h3>
-        <ul>
-          <li>India</li>
-          <li>Germany</li>
-          <li>England</li>
-        </ul>
-        <h3>Interests</h3>
-        <ol>
-          <li>Reading</li>
-          <li>Music</li>
-          <li>Coding</li>
-        </ol>
+        <br>
+        <div class = "container">
+          <h2>My Professional Profile</h2>
+          <a class="btn btn-outline-dark" href="https://github.com/niku4657" role="button">Niharika's Github</a>
+          <br>
+          <br>
+          <img src="profilepic.jpg" class="rounded-circle" alt="Niharika Kunapuli" height="400">
+        </div>
+        <br>
+        <br>
+        <div class = "container container-fluid">
+          <h3>My Favorite Projects</h3>
+          <table class = "table table-sm">
+            <tbody>
+              <tr>
+                <th scope="row">#</th>
+                <th scope="row">Name of the Project</th>
+                <th scope="row">Technologies Used</th>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Text-Based Game of Clue</td>
+                <td>C++</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Ping Pong Game</td>
+                <td>Java</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <br>
+        <div class = "container container-fluid">
+          <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#Countries" aria-expanded="false" aria-controls="Countries">Countries Travelled</button>
+          <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#Interests" aria-expanded="false" aria-controls="Interests">Interests</button>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="Countries">
+                <div class="card card-body">India</div>
+                <div class="card card-body">Germany</div>
+                <div class="card card-body">England</div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="Interests">
+                <div class="card card-body">Reading</div>
+                <div class="card card-body">Music</div>
+                <div class="card card-body">Coding</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       </body>
+      <script></script>
     </html>
